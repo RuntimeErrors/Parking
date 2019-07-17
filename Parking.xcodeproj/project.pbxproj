@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E7AAE9C22DE211E00591940 /* SearchResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AAE9B22DE211E00591940 /* SearchResultTableViewController.m */; };
+		1E7AAEA022DE25D600591940 /* SearchResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AAE9E22DE25D600591940 /* SearchResultCell.m */; };
+		1E7AAEA122DE25D600591940 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E7AAE9F22DE25D600591940 /* SearchResultCell.xib */; };
+		1E8717AC22DCCBDA00FF5580 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8717AB22DCCBDA00FF5580 /* AppDelegate.m */; };
+		1E8717B222DCCBDA00FF5580 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8717B022DCCBDA00FF5580 /* Main.storyboard */; };
+		1E8717B522DCCBDA00FF5580 /* Parking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E8717B322DCCBDA00FF5580 /* Parking.xcdatamodeld */; };
+		1E8717B722DCCBDB00FF5580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E8717B622DCCBDB00FF5580 /* Assets.xcassets */; };
+		1E8717BA22DCCBDB00FF5580 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8717B822DCCBDB00FF5580 /* LaunchScreen.storyboard */; };
+		1E8717BD22DCCBDB00FF5580 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8717BC22DCCBDB00FF5580 /* main.m */; };
+		1E8717C922DCCD5600FF5580 /* ParkingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8717C722DCCD5500FF5580 /* ParkingHelper.m */; };
+		1E8717CD22DCDA7B00FF5580 /* ParkingLotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8717CB22DCDA7B00FF5580 /* ParkingLotCell.m */; };
+		1E8717CE22DCDA7B00FF5580 /* ParkingLotCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E8717CC22DCDA7B00FF5580 /* ParkingLotCell.xib */; };
+		1E8717D122DCDFF300FF5580 /* ParkingLotInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8717D022DCDFF300FF5580 /* ParkingLotInfoViewController.m */; };
+		1E8717D422DCE38400FF5580 /* ParkLotsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8717D322DCE38400FF5580 /* ParkLotsTableViewController.m */; };
+		1E8717D622DCE7D200FF5580 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8717D522DCE7D200FF5580 /* MapKit.framework */; };
+		1E8717D922DCEE3A00FF5580 /* ConvertCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8717D822DCEE3A00FF5580 /* ConvertCoordinate.m */; };
+		1E8717DD22DD460500FF5580 /* InfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8717DB22DD460500FF5580 /* InfoTableViewCell.m */; };
+		1E8717DE22DD460500FF5580 /* InfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E8717DC22DD460500FF5580 /* InfoTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E7AAE9A22DE211E00591940 /* SearchResultTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchResultTableViewController.h; sourceTree = "<group>"; };
+		1E7AAE9B22DE211E00591940 /* SearchResultTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchResultTableViewController.m; sourceTree = "<group>"; };
+		1E7AAE9D22DE25D600591940 /* SearchResultCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchResultCell.h; sourceTree = "<group>"; };
+		1E7AAE9E22DE25D600591940 /* SearchResultCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchResultCell.m; sourceTree = "<group>"; };
+		1E7AAE9F22DE25D600591940 /* SearchResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
+		1E8717A722DCCBDA00FF5580 /* Parking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E8717AA22DCCBDA00FF5580 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E8717AB22DCCBDA00FF5580 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E8717B122DCCBDA00FF5580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E8717B422DCCBDA00FF5580 /* Parking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Parking.xcdatamodel; sourceTree = "<group>"; };
+		1E8717B622DCCBDB00FF5580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E8717B922DCCBDB00FF5580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E8717BB22DCCBDB00FF5580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E8717BC22DCCBDB00FF5580 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E8717C722DCCD5500FF5580 /* ParkingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkingHelper.m; sourceTree = "<group>"; };
+		1E8717C822DCCD5500FF5580 /* ParkingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkingHelper.h; sourceTree = "<group>"; };
+		1E8717CA22DCDA7B00FF5580 /* ParkingLotCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParkingLotCell.h; sourceTree = "<group>"; };
+		1E8717CB22DCDA7B00FF5580 /* ParkingLotCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParkingLotCell.m; sourceTree = "<group>"; };
+		1E8717CC22DCDA7B00FF5580 /* ParkingLotCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParkingLotCell.xib; sourceTree = "<group>"; };
+		1E8717CF22DCDFF300FF5580 /* ParkingLotInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParkingLotInfoViewController.h; sourceTree = "<group>"; };
+		1E8717D022DCDFF300FF5580 /* ParkingLotInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParkingLotInfoViewController.m; sourceTree = "<group>"; };
+		1E8717D222DCE38400FF5580 /* ParkLotsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParkLotsTableViewController.h; sourceTree = "<group>"; };
+		1E8717D322DCE38400FF5580 /* ParkLotsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParkLotsTableViewController.m; sourceTree = "<group>"; };
+		1E8717D522DCE7D200FF5580 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1E8717D722DCEE3A00FF5580 /* ConvertCoordinate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConvertCoordinate.h; sourceTree = "<group>"; };
+		1E8717D822DCEE3A00FF5580 /* ConvertCoordinate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConvertCoordinate.m; sourceTree = "<group>"; };
+		1E8717DA22DD460500FF5580 /* InfoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoTableViewCell.h; sourceTree = "<group>"; };
+		1E8717DB22DD460500FF5580 /* InfoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoTableViewCell.m; sourceTree = "<group>"; };
+		1E8717DC22DD460500FF5580 /* InfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E8717A422DCCBDA00FF5580 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8717D622DCE7D200FF5580 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E87179E22DCCBDA00FF5580 = {
+			isa = PBXGroup;
+			children = (
+				1E8717C622DCCD5500FF5580 /* modules */,
+				1E8717A922DCCBDA00FF5580 /* Parking */,
+				1E8717A822DCCBDA00FF5580 /* Products */,
+				1E8717C322DCCCB600FF5580 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E8717A822DCCBDA00FF5580 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E8717A722DCCBDA00FF5580 /* Parking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E8717A922DCCBDA00FF5580 /* Parking */ = {
+			isa = PBXGroup;
+			children = (
+				1E95F0D322DE98B40029C655 /* Source */,
+				1E95F0D422DE98CD0029C655 /* ViewController */,
+				1E8717AA22DCCBDA00FF5580 /* AppDelegate.h */,
+				1E8717AB22DCCBDA00FF5580 /* AppDelegate.m */,
+				1E8717B022DCCBDA00FF5580 /* Main.storyboard */,
+				1E8717B622DCCBDB00FF5580 /* Assets.xcassets */,
+				1E8717B822DCCBDB00FF5580 /* LaunchScreen.storyboard */,
+				1E8717BB22DCCBDB00FF5580 /* Info.plist */,
+				1E8717BC22DCCBDB00FF5580 /* main.m */,
+				1E8717B322DCCBDA00FF5580 /* Parking.xcdatamodeld */,
+			);
+			path = Parking;
+			sourceTree = "<group>";
+		};
+		1E8717C322DCCCB600FF5580 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E8717D522DCE7D200FF5580 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E8717C622DCCD5500FF5580 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				1E8717C822DCCD5500FF5580 /* ParkingHelper.h */,
+				1E8717C722DCCD5500FF5580 /* ParkingHelper.m */,
+				1E8717D722DCEE3A00FF5580 /* ConvertCoordinate.h */,
+				1E8717D822DCEE3A00FF5580 /* ConvertCoordinate.m */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		1E95F0D322DE98B40029C655 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1E7AAE9A22DE211E00591940 /* SearchResultTableViewController.h */,
+				1E7AAE9B22DE211E00591940 /* SearchResultTableViewController.m */,
+				1E7AAE9D22DE25D600591940 /* SearchResultCell.h */,
+				1E7AAE9E22DE25D600591940 /* SearchResultCell.m */,
+				1E7AAE9F22DE25D600591940 /* SearchResultCell.xib */,
+				1E8717CA22DCDA7B00FF5580 /* ParkingLotCell.h */,
+				1E8717CB22DCDA7B00FF5580 /* ParkingLotCell.m */,
+				1E8717CC22DCDA7B00FF5580 /* ParkingLotCell.xib */,
+				1E8717DA22DD460500FF5580 /* InfoTableViewCell.h */,
+				1E8717DB22DD460500FF5580 /* InfoTableViewCell.m */,
+				1E8717DC22DD460500FF5580 /* InfoTableViewCell.xib */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1E95F0D422DE98CD0029C655 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E8717D222DCE38400FF5580 /* ParkLotsTableViewController.h */,
+				1E8717D322DCE38400FF5580 /* ParkLotsTableViewController.m */,
+				1E8717CF22DCDFF300FF5580 /* ParkingLotInfoViewController.h */,
+				1E8717D022DCDFF300FF5580 /* ParkingLotInfoViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E8717A622DCCBDA00FF5580 /* Parking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E8717C022DCCBDB00FF5580 /* Build configuration list for PBXNativeTarget "Parking" */;
+			buildPhases = (
+				1E8717A322DCCBDA00FF5580 /* Sources */,
+				1E8717A422DCCBDA00FF5580 /* Frameworks */,
+				1E8717A522DCCBDA00FF5580 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Parking;
+			productName = Parking;
+			productReference = 1E8717A722DCCBDA00FF5580 /* Parking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E87179F22DCCBDA00FF5580 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "蔡維昌";
+				TargetAttributes = {
+					1E8717A622DCCBDA00FF5580 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1E8717A222DCCBDA00FF5580 /* Build configuration list for PBXProject "Parking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E87179E22DCCBDA00FF5580;
+			productRefGroup = 1E8717A822DCCBDA00FF5580 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E8717A622DCCBDA00FF5580 /* Parking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E8717A522DCCBDA00FF5580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8717DE22DD460500FF5580 /* InfoTableViewCell.xib in Resources */,
+				1E8717BA22DCCBDB00FF5580 /* LaunchScreen.storyboard in Resources */,
+				1E8717B722DCCBDB00FF5580 /* Assets.xcassets in Resources */,
+				1E8717CE22DCDA7B00FF5580 /* ParkingLotCell.xib in Resources */,
+				1E7AAEA122DE25D600591940 /* SearchResultCell.xib in Resources */,
+				1E8717B222DCCBDA00FF5580 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E8717A322DCCBDA00FF5580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8717DD22DD460500FF5580 /* InfoTableViewCell.m in Sources */,
+				1E8717CD22DCDA7B00FF5580 /* ParkingLotCell.m in Sources */,
+				1E8717D122DCDFF300FF5580 /* ParkingLotInfoViewController.m in Sources */,
+				1E8717B522DCCBDA00FF5580 /* Parking.xcdatamodeld in Sources */,
+				1E7AAE9C22DE211E00591940 /* SearchResultTableViewController.m in Sources */,
+				1E8717C922DCCD5600FF5580 /* ParkingHelper.m in Sources */,
+				1E8717BD22DCCBDB00FF5580 /* main.m in Sources */,
+				1E8717AC22DCCBDA00FF5580 /* AppDelegate.m in Sources */,
+				1E8717D422DCE38400FF5580 /* ParkLotsTableViewController.m in Sources */,
+				1E7AAEA022DE25D600591940 /* SearchResultCell.m in Sources */,
+				1E8717D922DCEE3A00FF5580 /* ConvertCoordinate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E8717B022DCCBDA00FF5580 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E8717B122DCCBDA00FF5580 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E8717B822DCCBDB00FF5580 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E8717B922DCCBDB00FF5580 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E8717BE22DCCBDB00FF5580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E8717BF22DCCBDB00FF5580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E8717C122DCCBDB00FF5580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J7ZDBFW76K;
+				INFOPLIST_FILE = Parking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Parking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E8717C222DCCBDB00FF5580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J7ZDBFW76K;
+				INFOPLIST_FILE = Parking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Parking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E8717A222DCCBDA00FF5580 /* Build configuration list for PBXProject "Parking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E8717BE22DCCBDB00FF5580 /* Debug */,
+				1E8717BF22DCCBDB00FF5580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E8717C022DCCBDB00FF5580 /* Build configuration list for PBXNativeTarget "Parking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E8717C122DCCBDB00FF5580 /* Debug */,
+				1E8717C222DCCBDB00FF5580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1E8717B322DCCBDA00FF5580 /* Parking.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1E8717B422DCCBDA00FF5580 /* Parking.xcdatamodel */,
+			);
+			currentVersion = 1E8717B422DCCBDA00FF5580 /* Parking.xcdatamodel */;
+			path = Parking.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1E87179F22DCCBDA00FF5580 /* Project object */;
+}

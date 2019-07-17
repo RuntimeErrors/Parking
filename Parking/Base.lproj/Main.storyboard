@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0dM-ii-7DP">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Parking Lot Info View Controller-->
+        <scene sceneID="loy-YX-oRT">
+            <objects>
+                <viewController storyboardIdentifier="ParkingLotInfoViewController" id="yHy-ua-DZH" customClass="ParkingLotInfoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hOW-SK-nEF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="E1b-eL-EcS">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cZW-wU-e8N">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="319.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="yHy-ua-DZH" id="lBb-DS-K9w"/>
+                                            <outlet property="delegate" destination="yHy-ua-DZH" id="rAm-up-DlJ"/>
+                                        </connections>
+                                    </tableView>
+                                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="hDt-Iu-swh">
+                                        <rect key="frame" x="0.0" y="319.5" width="414" height="532.5"/>
+                                    </mapView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="cZW-wU-e8N" firstAttribute="height" secondItem="hDt-Iu-swh" secondAttribute="height" multiplier="0.6" id="IHw-YC-fff"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="E1b-eL-EcS" firstAttribute="trailing" secondItem="c3p-5q-t4r" secondAttribute="trailing" id="IPO-GS-6H0"/>
+                            <constraint firstItem="E1b-eL-EcS" firstAttribute="top" secondItem="c3p-5q-t4r" secondAttribute="top" id="ZIW-Tj-vJ8"/>
+                            <constraint firstItem="E1b-eL-EcS" firstAttribute="leading" secondItem="c3p-5q-t4r" secondAttribute="leading" id="aad-vM-Fkb"/>
+                            <constraint firstAttribute="bottom" secondItem="E1b-eL-EcS" secondAttribute="bottom" id="ty4-2T-8kX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="c3p-5q-t4r"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="hDt-Iu-swh" id="iwj-OE-XVP"/>
+                        <outlet property="tableView" destination="cZW-wU-e8N" id="xpk-sT-OXh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0ve-M8-V7o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2100" y="772.76785714285711"/>
+        </scene>
+        <!--Parking-->
+        <scene sceneID="ydx-6k-e4c">
+            <objects>
+                <tableViewController id="vv5-pD-2Q1" customClass="ParkLotsTableViewController" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="Parking" id="t0B-Iy-YKF"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hBM-iv-LFl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchBar contentMode="redraw" id="CbE-Ya-n5p">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="vv5-pD-2Q1" id="mcz-cZ-obb"/>
+                    </connections>
+                </searchBar>
+            </objects>
+            <point key="canvasLocation" x="1167" y="774"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="SPS-jX-NbG">
+            <objects>
+                <navigationController id="0dM-ii-7DP" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="maM-GC-aWr">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vv5-pD-2Q1" kind="relationship" relationship="rootViewController" id="PJz-K7-e2v"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XSe-ok-tZl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="242" y="774"/>
+        </scene>
+    </scenes>
+</document>
